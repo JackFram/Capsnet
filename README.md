@@ -3,7 +3,7 @@
 - There is a nicely organized pytorch-implemented repo of capsnet [here](https://github.com/laubonghaudoi/CapsNet_guide_PyTorch).
 ![alt text](png/model.png)
 - The video introduction of Capsnet is [here](https://pan.baidu.com/s/1bo03udL) which is really insightful.
-- A new model structure based on Capsnet which improve its routing efficiency is [here](https://openreview.net/pdf?id=HJWLfGWRb).
+- A new model structure based on Capsnet which improve its routing efficiency is [Matrix Capsules with EM routing](https://openreview.net/pdf?id=HJWLfGWRb).
 - Walk through and well organized blog written in CN [here](https://zhuanlan.zhihu.com/p/30970675).
 ![alt text](png/png2.png)
 ### Three main improvement on traditional CNN.
