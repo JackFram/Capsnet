@@ -5,9 +5,8 @@
 - A new model structure based on Capsnet which improve its routing efficiency is [here](https://openreview.net/pdf?id=HJWLfGWRb).
 - Walk through and well organized blog written in CN [here](https://zhuanlan.zhihu.com/p/30970675).
 ![alt text](png/model.png)
-### Two new improvement compared to traditional CNN
-BatchNormalization layer somehow ignores the variance in space and spin of an image. Therefore Hinton came out with an method of dynamic routing procedure to replace the BN layer. 
-#### Dynamic routing system
-how to combine routing algorithm with weight update?
-#### Activation scalar to vecter
-#### Reconstruction —— For regularization
+###Two main improvement on traditional CNN
+- Maxpooling layer -> Routing procedure
+- Scalar activation -> Capsule sealed representation(vector in Hinton's paper)
+##### The problem of traditional Maxpooling
+
