@@ -9,7 +9,7 @@
 - Maxpooling layer -> Routing procedure
 - Scalar activation -> Capsule sealed representation(vector in Hinton's paper)
 - Affine transformation as different view points.
-##### The problem of traditional Maxpooling
+#### The problem of traditional Maxpooling
 Traditional methods for down sampling like Maxpooling, Avgpooling or Convpooling are not sensible with significant linear transformation in image, we need to use some preprocessing tricks like rotationing and cropping to increase model's robustness to transformation invariance. Maxpooling which is widely used can show some invariance to slight changes in an image, but we are more comfortable with equivariance as human vision does. As we human view a same object from a different position relative to our view point, our brain does a dynamic procedure to adjust our attention and that's why dynamic routing is more like a attention model, it not simply use maxpool to down-sample which is too stiff but rather make the network more flexible regard to the capsule position.
 The math trick is to use cosine likelyhood to measure the covariance between two capules and adjust the routing coefficiency.
 We don't make elaborations here but in the paper it has been well introduced.
