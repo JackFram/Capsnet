@@ -6,7 +6,7 @@
 - A new model structure based on Capsnet which improve its routing efficiency is [here](https://openreview.net/pdf?id=HJWLfGWRb).
 - Walk through and well organized blog written in CN [here](https://zhuanlan.zhihu.com/p/30970675).
 ![alt text](png/png2.png)
-### Two main improvement on traditional CNN and affine transformation
+### Three main improvement on traditional CNN.
 - Maxpooling layer -> Routing procedure
 - Scalar activation -> Capsule sealed representation(vector in Hinton's paper)
 - Affine transformation as different view points.
